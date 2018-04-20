@@ -175,6 +175,65 @@ div.info-4{
 
 /** FIN INFO-4 **/
 
+
+/** EL INFO-5 **/
+
+div.info-5{
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 0px;
+    overflow: hidden;
+    text-align: justify;
+    -webkit-transition: height 1s;
+}
+
+.eleccion-div:hover{
+    background-color: #3ce689;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);    
+}
+
+.eleccion:hover div.info-5{
+    height: 720px;
+    transition: 1s;
+}
+
+.cont-tabla{
+    margin: 40px 22px;
+    width: 850px;
+}
+
+table{
+    background-color: #fff;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+th, td{
+    padding: 20px;
+}
+
+thead{
+    background-color: #163eb2;
+    color: #fff;
+    border-bottom: solid 5px #082169;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #45dde7;
+    color: #fff;
+}
+td{
+    font-weight: bold;
+}
+
+/** FIN INFO-5 **/
+
 /** IMAGEN DE MOMENTOS **/
 
 .img-momentos{
@@ -303,7 +362,7 @@ ol li{
     background-color: rgba(0, 0, 0, .4);
     width: 100%;
     height: 100px;
-    margin-top: 90%;
+    margin-top: 10%;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -318,4 +377,7 @@ ol li{
     display: block;
     text-decoration: none;
     color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
 }
