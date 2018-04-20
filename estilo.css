@@ -358,11 +358,29 @@ ol li{
     margin-right: 40px;
 }
 
+.icon img{
+    width: 65px;
+    height: 65px;
+    margin: 10px 10px;
+}
+
+table.social{
+    background-color: rgba(0, 0, 0, .4);
+    margin-top: 40px;
+}
+
+.redes{
+    margin: 20px 30% 0px 30%;
+    padding-bottom: 0;
+}
+
+
+
 #footer{
     background-color: rgba(0, 0, 0, .4);
     width: 100%;
     height: 100px;
-    margin-top: 10%;
+    margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -371,6 +389,21 @@ ol li{
     color: #fff;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.correo{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 43%;
+    transition: .3s;
+
+}
+
+
+.correo:hover{
+    color: chartreuse;
+    transition: .3s;
 }
 
 .icon{
