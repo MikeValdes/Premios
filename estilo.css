@@ -1,0 +1,321 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(pigeon-2690195.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+#texto{
+    overflow: hidden;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: .9em;
+}
+
+#premio img{
+    width: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+div#cont-text{
+    background-color: rgba(255, 255, 255, .7);
+    width: 80%;
+    text-align: center;
+    margin: 15px 10% 0 10%;
+    height: 110%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+div#cont-text h2{
+    padding-top: 8px;
+}
+
+div#cont-text .subtitulos{
+    text-align: left;
+    margin-left: 40px;
+}
+
+div#cont-text p{
+    padding-top: 10px;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.eleccion-div{
+   max-width:700px;
+    height: 43px;
+    background-color: rgba(60, 230, 128, .5);
+    margin: 8px 40px 8px 40px;
+    border-radius: 8px;
+    transition: .3s
+    
+}
+
+.a-eleccion{
+    text-decoration: none;
+}
+
+.p-eleccion{
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    font-weight: bolder;
+}
+
+/** EL INFO **/
+div.info{
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 0px;
+    overflow: hidden;
+    text-align: justify;
+    -webkit-transition: height .5s;
+}
+
+.eleccion-div:hover{
+    background-color: #3ce689;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);
+    
+}
+
+.eleccion:hover div.info{
+    height: 300px;
+    transition: .5s;
+}
+/** FIN DEL INFO **/
+
+
+
+/** EL INFO-2 **/
+div.info-2{
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 0px;
+    overflow: hidden;
+    text-align: justify;
+    -webkit-transition: height 1s;
+}
+
+.eleccion-div:hover{
+    background-color: #3ce689;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);
+    
+}
+
+.eleccion:hover div.info-2{
+    height: 920px;
+    transition: 1s;
+}
+
+/** FIN INFO-2 **/
+
+/** EL INFO-3 **/
+
+div.info-3{
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 0px;
+    overflow: hidden;
+    text-align: justify;
+    -webkit-transition: height 1s;
+}
+
+.eleccion-div:hover{
+    background-color: #3ce689;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);    
+}
+
+.eleccion:hover div.info-3{
+    height: 550px;
+    transition: 1s;
+}
+
+/** FIN INFO-3 **/
+
+/** EL INFO-4 **/
+
+div.info-4{
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 0px;
+    overflow: hidden;
+    text-align: justify;
+    -webkit-transition: height 1s;
+}
+
+.eleccion-div:hover{
+    background-color: #3ce689;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);    
+}
+
+.eleccion:hover div.info-4{
+    height: 1420px;
+    transition: 1s;
+}
+
+/** FIN INFO-4 **/
+
+/** IMAGEN DE MOMENTOS **/
+
+.img-momentos{
+    width: 45%;
+    height: 45%;
+    float: right;
+    padding-right: 0px;
+    margin: 7px 0px 7px 15px;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.img-momentos:hover{
+    width: 46%;
+    height: 46%;
+    transition: .4s;
+
+}
+
+/** FIN DE IMAGEN DE MOMENTOS **/
+
+/** IMAGEN DE SAAVEDRA **/
+
+.saavedra{
+    width: 15%;
+    height: 15%;
+    float: right;
+    padding-right: 0;
+    margin: 7px 0px 7px 15px;
+    border-radius: 6px;
+}
+
+
+/** FIN DE IMAGEN DE SAAVEDRA **/
+
+/** IMAGEN DE LIU **/
+
+.liu{
+    width: 45%;
+    height: 45%;
+    float: right;
+    padding-right: 0;
+    margin: 7px 0px 7px 15px;
+    border-radius: 6px;
+}
+
+/** FIN DE IMAGEN DE LIU **/
+
+/** IMAGEN DE SETSUKO **/
+
+.setsuko{
+    width: 45%;
+    height: 45%;
+    float: right;
+    padding-right: 0;
+    margin: 7px 0px 7px 15px;
+    border-radius: 6px;
+}
+
+/** FIN DE IMAGEN DE SETSUKO **/
+
+/** IMAGEN DE ICAN **/
+
+.ican{
+    width: 45%;
+    height: 45%;
+    float: right;
+    padding-right: 0;
+    margin: 7px 0px 7px 15px;
+    border-radius: 6px;
+}
+
+/** FIN DE IMAGEN DE ICAN **/
+
+/** IMAGEN DE TRUMP **/
+
+.trump{
+    width: 45%;
+    height: 45%;
+    float: right;
+    padding-right: 0;
+    margin: 7px 0px 7px 15px;
+    border-radius: 6px;
+}
+
+/** FIN DE IMAGEN DE TRUMP **/
+
+
+
+
+
+
+.eleccion a div p{
+    font-size: 20px;
+}
+
+div#cont-text .premio{
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin: 7px 40px 40px 7px;
+    border-radius: 6px;
+}
+
+div#cont-text p span{
+    font-style: italic;
+}
+
+.subtitulo2{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+ul li{
+    margin-left: 90px;
+    margin-right: 40px;
+}
+
+ol li{
+    margin-left: 90px;
+    margin-right: 40px;
+}
+
+#footer{
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100px;
+    margin-top: 90%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#footer h4{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.icon{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
